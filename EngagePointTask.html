@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EngagePoint Task</title>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css"/>
+
+</head>
+<body>
+<div id="navigationBar">
+    <ul id="navlist">
+        <li id="menu1" class="btn">All Orders</li>
+        <li id="menu2" class="btn">Current Orders</li>
+        <li id="menu3" class="btn">Completed Orders</li>
+        <li id="menu4" class="btn">Canceled Orders</li>
+    </ul>
+</div>
+<div id="allOrders">
+    <table class="features-table">
+        <thead>
+        <tr>
+            <td class="grey">Order Date</td>
+            <td class="grey">Order ID</td>
+            <td class="grey">Current Status</td>
+        </tr>
+        </thead>
+        <tbody id="table">
+        <tr class="tr1">
+            <td class="td1 grey"></td>
+            <td class="td2 grey"></td>
+            <td class="td3 grey"></td>
+        </tr>
+        <tr class="aboutOrder" id="order1">
+            <td colspan="3" class="orderCanceled">
+                <p>Order aborted</p>
+            </td>
+        </tr>
+        <tr class="tr2">
+            <td class="td1 grey"></td>
+            <td class="td2 grey"></td>
+            <td class="td3 grey"></td>
+        </tr>
+        <tr class="aboutOrder" id="order2">
+            <td colspan="3">
+                <div>
+                    <table class="contactsTable">
+                        <tr>
+                            <td>Name:</td>
+                            <td>Anonymous 1</td>
+                        </tr>
+                        <tr>
+                            <td>Phone number:</td>
+                            <td>+38 050 111 11 11</td>
+                        </tr>
+                        <tr>
+                            <td>Adress:</td>
+                            <td>Kyiv, Pobedy ave 1</td>
+                        </tr>
+                        <tr>
+                            <td>Payment:</td>
+                            <td>Cash</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <p></p>
+                    <table class="orderList">
+                        <tr>
+                            <td colspan="2"><b>Goods in order</b></td>
+                            <td width="15%"><b>Amount</b></td>
+                            <td width="25%" class="toRight"><b>Price</b></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/Very-small-books-worth-reading1.jpg" height="200px" width="150px"></td>
+                            <td>
+                                <p>This is little books from google images</p>
+                                <p class="money">Only 130 UAH</p>
+                            </td>
+                            <td>1</td>
+                            <td class="toRight money">130 UAH</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/NO-STRESS_CBDA-495x500.jpg" height="200px" width="150px"></td>
+                            <td>
+                                <p>Just no Stress!</p>
+                                <p class="money">Only 99 UAH</p>
+                            </td>
+                            <td>1</td>
+                            <td class="toRight money">99 UAH</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="toRight money">Delivery: 20 UAH</td>
+                        </tr>
+                        <tr>
+                            <td><span class="bonuses"> +38 bonuses</span></td>
+                            <td colspan="3" class="toRight money">Total: 249 UAH</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                </div>
+            </td>
+        </tr>
+        <tr class="tr3">
+            <td class="td1 grey"></td>
+            <td class="td2 grey"></td>
+            <td class="td3 grey"></td>
+        </tr>
+        <tr class="aboutOrder" id="order3">
+            <td colspan="3" class="orderSuccess">
+                <p>Success</p>
+            </td>
+        </tr>
+        <tr class="tr4">
+            <td class="td1 grey"></td>
+            <td class="td2 grey"></td>
+            <td class="td3 grey"></td>
+        </tr>
+        <tr class="aboutOrder" id="order4">
+            <td colspan="3"class="orderSuccess">
+                <p>Success</p>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
